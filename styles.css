@@ -1,0 +1,77 @@
+
+body{
+    background-color: rgba(45, 56, 64, 0.775);
+    background-image: url(../NewBee/Images/_.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: #000000f7;
+    
+
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    
+}
+header{
+    
+    height: 118px;
+    img {
+        filter: brightness(100%); 
+        max-height: 200px;
+        margin-top: -40px;
+
+    }
+    text-align: center;
+}
+nav{
+    background-color: rgba(2, 2, 2, 0.595);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+main{
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right:50px;
+    
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.599);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h1{
+    font-size: 50px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    font-size: small;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav a {
+    text-decoration: none;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer p{
+    font-size: small;
+    color: rgba(198, 198, 198);
+}
